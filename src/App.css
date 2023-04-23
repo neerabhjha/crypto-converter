@@ -14,12 +14,10 @@ html {
 }
 
 .crypto-card {
-  color: white;
+  color: rgb(204, 199, 199);
   min-height: 400px;
   min-width: 800px;
   background-color: rgb(175, 175, 182);
-  /* filter: blur(1px);
-  -webkit-filter: blur(1px); */
 }
 
 .crypto-card h3 {
