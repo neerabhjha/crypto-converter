@@ -1,0 +1,46 @@
+html {
+  background-image: url("Images/backgroundImg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-card {
+  color: white;
+  min-height: 400px;
+  min-width: 800px;
+  background-color: rgb(175, 175, 182);
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+}
+
+.crypto-card h3 {
+  font-size: 2rem;
+  background-color: rgb(149, 189, 75);
+  color: rgb(48, 12, 12);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.container h1 {
+  color: white;
+}
+
+.value-input::placeholder {
+  color: rgb(117, 90, 212);
+}
+
+.select-box {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
